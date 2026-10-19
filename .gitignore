@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches de teste e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Variáveis de ambiente e segredos (NUNCA comitar)
+.env
+.env*.local
+.env.*
+!.env.example
+!*.example
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Configurações de IDEs e Editores
+.vscode/
+.obsidian/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Pastas de descartes e dados brutos pesados
+lixo/
+dados/

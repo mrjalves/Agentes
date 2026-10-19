@@ -1,0 +1,22 @@
+# Pastas locais de dados e descarte
+lixo/
+dados/
+traduzir_metodos.py
+
+# Segredos e variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Ambientes virtuais
+.venv/
+venv/
+
+# Caches Python e Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Configurações de IDE
+.vscode/
+.obsidian/
